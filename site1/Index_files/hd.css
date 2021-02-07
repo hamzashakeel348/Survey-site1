@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+header{
+    background: #fff;
+}
+body{
+    display: block;
+}
+#title_header{
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 5px;
+    background: #f96301;
+    display: block!important;
+    padding: 0px 20px 5px;
+    letter-spacing: -1px;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 10px 0 15px;
+}
+.top_bar,
+.message p.title,
+.continue,
+.choices .answerOption,
+.remove_link button{
+    background: #f58220;
+    color: #fff;
+}
+.continue:hover,
+.choices .answerOption:hover,
+.remove_link button:hover{
+    background: #d67016;
+    color: #fff;
+}
+.continue,
+.choices .answerOption,
+.remove_link button{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+.special{
+    color: #f58220;
+}
+.sub_title{
+    color: #6f6d6d;
+}
+.date_block {
+    background-color: #f96302;
+    box-shadow: inset 0 3px 1px rgba(0, 0, 0, .125);
+    color: #fff;
+}
+.sub_modal_text{
+    display: none;
+    opacity: 0;
+}
+.spp_img .img_b_f {
+    display: inline-block;
+    background: url(https://d3e1y4kxkqljcb.cloudfront.net/survey_us_d/icon_brands/ah.png) no-repeat;
+    position: absolute;
+    right: 50px;
+    top: 22px;
+    width: 130px;
+    height: 120px;
+    background-size: cover;
+}
+.date_block .date:before{
+    background: url(https://d3e1y4kxkqljcb.cloudfront.net/survey_us_d/nn_survey/date_img_white.png);
+    background-size: cover;
+}
+@media screen and (max-width: 500px) {
+    #title_header{
+        font-size: 30px;
+        padding: 0 10px 5px;
+    }
+}
